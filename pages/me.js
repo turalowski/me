@@ -40,7 +40,7 @@ export default function Me() {
               {/* <Link href="/blog"> */}
                 <div className={`${styles.link} ${styles.blog}`}>Blog</div>
               {/* </Link> */}
-              <Link href="http://localhost:3000/cv.pdf">
+              <Link href="/cv.pdf">
                 <div className={`${styles.link} ${styles.cv}`}>CV</div>
               </Link>
             </div>
