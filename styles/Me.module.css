@@ -26,7 +26,7 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
   .main {
     align-items: flex-start;
@@ -38,8 +38,11 @@
     
   }
   .header {
+    display: flex;
     font-size: 4.5rem;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
     text-align: center;
   }
 
