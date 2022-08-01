@@ -3,10 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .Profile {
-  width: 600px;
+  width: 60rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,19 +18,46 @@
 }
 .header {
   font-weight: 300;
-  font-size: 50px;
-  margin: 10px 0;
+  font-size: 5rem;
+  margin: 1rem 0;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.584);
+  display: flex;
 }
 
+
+@media only screen and (max-width: 400px) {
+
+  .main {
+    align-items: flex-start;
+    padding: 8rem 0 0 0;
+  }
+
+  .Profile {
+    width: 30rem;
+    
+  }
+  .header {
+    font-size: 4.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 2rem!important;
+    width: 20rem;
+  }
+}
+.greetings {
+  margin-right: 5px;
+}
 .fullName {
   color: white;
 }
 
 .description {
-  width: 350px;
-  font-size: 30px;
+  width: 35rem;
+  font-size: 3rem;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -42,10 +70,10 @@
 .title {
   width: 100%;
   cursor: pointer;
-  margin: 15px 0;
+  margin: 1.5rem 0;
   background-color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
 }
 
 .links {
@@ -58,13 +86,13 @@
 .link {
   flex: 1;
   background-color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
   cursor: pointer;
 }
 
 .blog {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .cv {
@@ -72,12 +100,12 @@
 
 .socials {
   width: 100%;
-  border-top: 1px solid white;
+  border-top: 0.1rem solid white;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .socials .social {
@@ -86,5 +114,5 @@
 }
 
 .socials .social:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 1.5rem;
 }

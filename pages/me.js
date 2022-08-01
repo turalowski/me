@@ -25,8 +25,8 @@ export default function Me() {
             height={200}
           />
           <span className={styles.header}>
-            Witam! I&apos;m{' '}
-            <span className={styles.fullName}>Tural Hajiyev</span>.
+            <span className={styles.greetings}>Witam! I&apos;m</span> 
+            <span className={styles.fullName}>Tural Hajiyev.</span>
           </span>
           <div className={styles.description}>
             <Link
