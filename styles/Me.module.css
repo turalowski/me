@@ -88,14 +88,15 @@
   background-color: white;
   padding: 1rem 2rem;
   border-radius: 1rem;
-  cursor: pointer;
 }
 
 .blog {
   margin-right: 2rem;
+  cursor: not-allowed!important
 }
 
 .cv {
+  cursor: pointer;
 }
 
 .socials {
