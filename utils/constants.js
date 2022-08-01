@@ -6,7 +6,7 @@ import {
   BsInstagram,
 } from 'react-icons/bs';
 
-const FACEBOOK = 'https://www.facebook.com/tworal.io/';
+const FACEBOOK = 'https://www.facebook.com/turalowski';
 const INSTAGRAM = 'https://www.instagram.com/turalowski/';
 const LINKEDIN = 'https://www.linkedin.com/in/tural-hajiyev-703a15155/';
 const GITHUB = 'https://github.com/turalowski';
