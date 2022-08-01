@@ -1,0 +1,90 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pp {
+  border-radius: 50%;
+}
+.header {
+  font-weight: 300;
+  font-size: 50px;
+  margin: 10px 0;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.584);
+}
+
+.fullName {
+  color: white;
+}
+
+.description {
+  width: 350px;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #0f2d3e;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  cursor: pointer;
+  margin: 15px 0;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  flex: 1;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.blog {
+  margin-right: 20px;
+}
+
+.cv {
+}
+
+.socials {
+  width: 100%;
+  border-top: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.socials .social {
+  color: white;
+  cursor: pointer;
+}
+
+.socials .social:not(:last-child) {
+  margin-right: 15px;
+}

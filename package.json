@@ -11,7 +11,10 @@
   "dependencies": {
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "three": "^0.143.0",
+    "vanta": "^0.5.22"
   },
   "devDependencies": {
     "eslint": "8.21.0",

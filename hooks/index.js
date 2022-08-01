@@ -1,0 +1,1 @@
+export { useVanta } from './useVanta';
