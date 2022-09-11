@@ -61,7 +61,6 @@
 .description {
   width: 35rem;
   font-size: 3rem;
-  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +94,8 @@
 
 .blog {
   margin-right: 2rem;
-  cursor: not-allowed!important
+  cursor: pointer;
+  
 }
 
 .cv {
