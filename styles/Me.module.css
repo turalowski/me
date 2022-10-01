@@ -1,11 +1,11 @@
 .Me {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   flex-direction: column;
   background-color: black;
+  height: 100%;
 }
 
 .cv {
